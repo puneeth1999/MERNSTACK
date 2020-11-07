@@ -1,0 +1,77 @@
+@import 'config';
+@import 'utilities';
+@import 'buttons';
+@import 'navbuttons';
+@import 'mobile';
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: $light-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+.showcase {
+    height: 600px;
+    // background-color: $primary-color;
+    // color: set-text-color($primary-color);
+    @include set-bg-text-color($primary-color);
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; //To separate the Text and the <ul>
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin-left: 5em;
+            // a {
+            //     text-decoration: none;
+            //     display: inlline;
+            //     margin: 0 auto;
+            //     margin-right: 30px;
+            //     color: $half-white;
+            //     padding: 8px;
+            //     border-radius: 5px;
+            //     transition: background-color 0.3s linear;
+            // }
+            // a:hover {
+            //     background-color: $secondary-color;
+            //     color: #fff;
+            // }
+        }
+    }
+}
+
+.showcase-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    img {
+        width: 50%;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    p {
+        margin: 25px 0px;
+    }
+    a {
+        text-decoration: none;
+        // color: $half-white;
+        // margin-right: 15px;
+        // padding: 15px 0px;
+        // border-radius: 5px;
+        // transition: background-color, padding-right, 
+    }
+}
+
+img {
+    width: 100%;
+}

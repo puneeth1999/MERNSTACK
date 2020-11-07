@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* *{
+            margin: 0px;
+        } */
+        @media(min-width: 800px){
+            .container{
+            display: grid;
+            grid-template-columns: 30% 30% 40%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+            margin: 2em;
+        }
+
+        .container .columner{
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 1em;
+            /* margin: 2em; */
+            overflow:hidden;
+            grid-auto-rows: minmax(600px, auto);
+            grid-column: 2/4;
+        }
+        }
+        @media(max-width: 800px){
+            .inside1, .inside2, .thing1, .thing2{
+                background-color:#eee;
+            }
+            .inside1, .inside2, .thing1, .thing2{
+                margin: 1em;
+            }
+            #id:nth-child(even){
+                background-color: white;
+            }
+            
+    
+        }
+        
+        .inside1, .inside2, .thing1, .thing2{
+            
+            background-color:#eee;
+        }
+    </style>
+
+    <div class="texter">
+        <h1>WELCOME, PUNEETH</h1>
+    </div>
+    
+    <div class="container">
+        <div id="id" class="inside1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, suscipit eveniet officiis dolor
+            quo laborum saepe exercitationem deserunt ipsum tempore, magni ducimus recusandae consectetur! Aspernatur in,
+            fuga nostrum dolor cum quia optio! Deserunt ullam corporis sequi, maxime culpa soluta reprehenderit laudantium,
+            accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore delectus
+            optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+            saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi dolores vitae. Modi voluptate consequuntur voluptas suscipit. optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+            saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit.
+            Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi
+            dolores
+            vitae. Modi voluptate consequuntur voluptas optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+            saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit.
+            Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi
+            dolores
+            vitae. Modi voluptate consequuntur voluptas
+        </div>
+    
+        <div id="id" class="inside2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, minus esse explicabo incidunt
+            pariatur ducimus rem aspernatur soluta sed voluptas. Quo numquam minus inventore, quae saepe similique dolores
+            incidunt veniam?accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore delectus
+            optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+            saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi dolores
+            vitae. Modi voluptate consequuntur voluptas 
+        </div>
+            <div id="id" class="inside2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, minus esse explicabo incidunt
+                pariatur ducimus rem aspernatur soluta sed voluptas. Quo numquam minus inventore, quae saepe similique dolores
+                incidunt veniam?accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore delectus
+                optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+                saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi dolores
+                vitae. Modi voluptate consequuntur voluptas
+            </div>
+            <div id="id" class="inside2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, minus esse explicabo incidunt
+                pariatur ducimus rem aspernatur soluta sed voluptas. Quo numquam minus inventore, quae saepe similique dolores
+                incidunt veniam?accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore
+                delectus
+                optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+                saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit.
+                Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi
+                dolores
+                vitae. Modi voluptate consequuntur voluptas
+            </div>
+            <div class="columner">
+                <div id="id" class="inside2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, minus esse explicabo incidunt
+                    pariatur ducimus rem aspernatur soluta sed voluptas. Quo numquam minus inventore, quae saepe similique dolores
+                    incidunt veniam?accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore
+                    delectus
+                    optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+                    saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit.
+                    Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi
+                    dolores
+                    vitae. Modi voluptate consequuntur voluptas
+                </div>
+                <div id="id" class="inside2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, minus esse explicabo incidunt
+                    pariatur ducimus rem aspernatur soluta sed voluptas. Quo numquam minus inventore, quae saepe similique dolores
+                    incidunt veniam?accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore
+                    delectus
+                    optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+                    saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit.
+                    Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi
+                    dolores
+                    vitae. Modi voluptate consequuntur voluptas
+                </div>
+                <div id="id" class="inside2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, minus esse explicabo incidunt
+                    pariatur ducimus rem aspernatur soluta sed voluptas. Quo numquam minus inventore, quae saepe similique dolores
+                    incidunt veniam?accusantium quaerat unde neque dolorum, minima non. Eius, harum modi odit nisi architecto inventore
+                    delectus
+                    optio, cum aut quibusdam, minus sapiente sequi rerum accusantium neque itaque dignissimos voluptatum beatae
+                    saepe laborum iste aliquid. Eos eaque saepe soluta fugit qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit.
+                    Dolore ut doloremque harum, consequuntur doloribus esse iusto sequi modi blanditiis, corporis sit autem animi
+                    dolores
+                    vitae. Modi voluptate consequuntur voluptas
+                </div>
+            </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+%navi {
+    text-decoration: none;
+    display: inline-block;
+    color: $half-white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.navi-link {
+    @extend %navi;
+    text-decoration: none;
+    display: inline-block;
+    color: set-text-color($primary-color);
+    padding: 8px;
+    border-radius: 5px;
+    &:hover {
+        transform: scale(1.03);
+        font-weight: bold;
+    }
+}

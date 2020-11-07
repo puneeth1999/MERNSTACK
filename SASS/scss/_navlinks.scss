@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+@import 'navbuttons';
+=======
+%navi {
+    text-decoration: none;
+    display: inlline;
+    margin: 0 auto;
+    margin-right: 30px;
+    color: $half-white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+>>>>>>> 49d0005065d594e4156e6ca01252397bbf3edebb
+.navi-link {
+    @extend %navi;
+    text-decoration: none;
+    display: inlline;
+    margin: 0 auto;
+    margin-right: 30px;
+    color: $half-white;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: $half-white;
+    &:hover {
+        transform: scale(0.98);
+    }
+}

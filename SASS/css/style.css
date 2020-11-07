@@ -1,0 +1,199 @@
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.m-1 {
+  margin: spacerem;
+}
+
+.my-1 {
+  margin: spacerem 0;
+}
+
+.p-1 {
+  padding: spacerem;
+}
+
+.py-1 {
+  padding: spacerem 0;
+}
+
+.m-2 {
+  margin: spacerem;
+}
+
+.my-2 {
+  margin: spacerem 0;
+}
+
+.p-2 {
+  padding: spacerem;
+}
+
+.py-2 {
+  padding: spacerem 0;
+}
+
+.m-3 {
+  margin: spacerem;
+}
+
+.my-3 {
+  margin: spacerem 0;
+}
+
+.p-3 {
+  padding: spacerem;
+}
+
+.py-3 {
+  padding: spacerem 0;
+}
+
+.m-4 {
+  margin: spacerem;
+}
+
+.my-4 {
+  margin: spacerem 0;
+}
+
+.p-4 {
+  padding: spacerem;
+}
+
+.py-4 {
+  padding: spacerem 0;
+}
+
+.m-5 {
+  margin: spacerem;
+}
+
+.my-5 {
+  margin: spacerem 0;
+}
+
+.p-5 {
+  padding: spacerem;
+}
+
+.py-5 {
+  padding: spacerem 0;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+  color: #eee;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+  color: #eee;
+}
+
+.navi-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #eee;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.navi-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #eee;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.navi-link:hover {
+  transform: scale(1.03);
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase .container .showcase-content {
+    text-align: center;
+  }
+  .showcase .container .showcase-content img {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.showcase {
+  height: 600px;
+  background-color: #0e6cff;
+  color: #eee;
+}
+
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showcase nav ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 5em;
+}
+
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.showcase-content img {
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.showcase-content p {
+  margin: 25px 0px;
+}
+
+.showcase-content a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
